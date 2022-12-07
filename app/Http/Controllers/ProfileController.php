@@ -77,10 +77,10 @@ class ProfileController extends Controller
         $dean_users = User::whereRoleIs('dean')->get();
         $hosd_users = User::whereRoleIs('hosd')->get();
 
-        return view('allUser',compact('committee_users', 'student_users', 'lecturer_users', 'coordinator_users', 'dean_users', 'hosd_users'));
+        return view('Profile.allUser',compact('committee_users', 'student_users', 'lecturer_users', 'coordinator_users', 'dean_users', 'hosd_users'));
     }
 
     public function myprofile(){
-        return view('myprofile');
+        return view('Profile.myprofile');
     }
 }

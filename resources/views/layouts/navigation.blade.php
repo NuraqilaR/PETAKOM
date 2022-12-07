@@ -6,7 +6,7 @@
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
                     <a href="{{ route('dashboard') }}">
-                        <img src="https://scontent.fkul16-1.fna.fbcdn.net/v/t39.30808-6/241042263_3114397288782316_3738434718613349861_n.png?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=xTsUjEPr0rIAX9xHdPd&_nc_ht=scontent.fkul16-1.fna&oh=00_AfBedIV6VMIvau00eeWNY9DA5jIXBQhxxuyrSNKs33bI1A&oe=637D6389" alt="Petakom Logo" width="70px" height="70px">
+                    <img src="/Image/petakom.png" alt="Petakom Logo" width="70px" height="70px">
                     </a>
                 </div>
 
